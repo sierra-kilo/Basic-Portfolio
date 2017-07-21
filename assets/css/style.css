@@ -27,7 +27,7 @@ header {
 	margin-right: 100px;
 	padding: 25px;
 	font-size: 24px;
-	margin-bottom: 25px;
+	margin-bottom: 100px;
 	display: inline-block;
 	border-bottom: 2px solid #ddd;
 
@@ -86,7 +86,7 @@ nav {
 	height: 50px;
 }
 
-.social{
+.social {
 	float: right;
 	height: auto;
 	width: 270px;
@@ -96,6 +96,39 @@ nav {
 	display: inline-block;
 	margin-right: 100px;
 	margin-top: 25px;
+}
+
+ul {
+	list-style: none;
+}
+
+.imgBox {
+	position: relative;
+	height:250px;
+	width:300px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.imgBox img {
+	position:relative;
+	height: 100%;
+	width: 100%;
+
+}
+.caption {
+	position: absolute;
+	bottom: 10%;
+	font-size: 24px;
+	background: #4aaaa5;
+	color: white;
+	font-family: 'Times';
+	height: 20px;
+	width:90%;
+	padding:5%;
+	text-align: center; 
+}
+.imgRight {
+	float: right;
 }
 
 footer {
